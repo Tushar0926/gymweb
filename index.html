@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UFitnessreponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>UFitness- place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">U</span>Fitness</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">services</a>
+            </li>
+            <li>
+              <a href="#trainers">Trainers</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              A place for your fitness goals
+            </h1>
+            <p class="description">
+              We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+              TRX And Much More
+            </p>
+          </div>
+          <div class="btn-group"><a href="#contact">
+            <button class="btn btn__primary margin-right margin-bottom">
+              Join us
+            </button>  </a>            <a href="#services">
+          <button class="btn btn__secondary" >Our services</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">U</span>Fitness
+            </h2>
+            <p>
+              To keep the body in good health is a duty otherwise we shall not be able to keep our mind strong and clear.When it comes to eating right and exercising, there is no 'I'll start tomorrow'.It never gets easier, you just get better.The gym is not the social club for the fit.
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img
+              src="img/about-img-1.jpg"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-2.jpg"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-3.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="services">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">services</h2>
+            <p>
+             The gym is not the social club for the fit. It's a training ground for everyone.The mind is the most important part of achieving any fitness.
+
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-bodybuilding.jpg"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                   Bodybuilding is about a lot more than just looks. Lift to gain confidence. Lift to feel strong. Life to feel amazing.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Body Building</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-crossfit.jpg"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    We all need inspirational motivation from time to time. Crossfit is hard work; it tests and pushes us beyond our limitations. Here's a list to help you out.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-gymnastic.jpg"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                   Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, dedication and endurance.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Gymnastic</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-fitness.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Regular physical activity can improve your muscle strength and boost your endurance. Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Fitness</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-TRX.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    TRX which stands for Total Body Resistance Exercise, is revolutionary workout method that uses your body weight and gravity as resistance to build strength, balance, coordination, flexibility, core and joint stability.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">TRX</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-boxing.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Boxing (also known as "Western boxing" or "pugilism") is a combat sport in which two people, usually wearing protective gloves and other protective equipment such as hand wraps and mouthguards, throw punches at each other for a predetermined amount of time in a boxing ring.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Special offer this summer get full Benefits for year with 20%
+              discount.
+            </h2>
+            <p class="margin-bottom">
+ It will be a routine exercise that is born to be rejected.
+            </p><a href="#contact">
+            <button class="btn btn__primary">Become a member</button></a>
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION COACHES -->
+      <section class="section-coaches" id="trainers">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">
+              OUR FITNESS COACHES
+            </h2>
+            <p>
+              Personal trainers strive to encourage you to keep going even when you are weary and want to quit. Quotes have tremendous power, and these motivating words will undoubtedly motivate you to keep pushing yourself until you achieve your goals.
+            </p>
+          </header>
+
+          <article class="coache-content">
+            <div class="c-card">
+              <img
+                src="img/photo.jpeg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              
+
+              <div class="c-card__content">
+                <p class="c-name">Yatinder Singh</p>
+                <p class="c-title">Body Building</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/photo1.jpeg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              
+
+              <div class="c-card__content">
+                <p class="c-name">Narender Yadav</p>
+                <p class="c-title">Cardio Expert</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/photo3.jpeg"
+                alt="coache three"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+              
+              <div class="c-card__content">
+                <p class="c-name">Ram Niwas Malik</p>
+                <p class="c-title">Fitness Coach</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review" id="review">
+        <div class="review-box container" data-aos="fade-up">
+          <h2 class="heading heading--2 underline margin-bottom grid-center">
+            OWNERS
+          </h2>
+
+          <div class="review-card">
+            <img
+              src="img/saurav1.jpeg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                To keep the body in good health is a duty… otherwise we shall not be able to keep our mind strong and clear.
+              </p>
+
+              <div class="name">Saurav</div>
+            </blockquote>
+          </div>
+
+          <div class="review-card">
+            <img
+              src="img/Arvinder.jpeg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                Get into the specifics of what you aim to achieve.
+              </p>
+
+              <div class="name">Arvinder Singh</div>
+            </blockquote>
+          </div>
+
+          <div class="review-card">
+            <img
+              src="img/Tushar.jpeg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                Fitness means the condition of being physically and mentally fit with good health.
+              </p>
+              <div class="name">Tushar</div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">U</span>Fitness</h2>
+
+          <ul class="contact-data">
+            <li class="location">192 Street,Paschim Vihar Delhi</li>
+            <li class="phone">+91 8929xxxx23</li>
+            <li class="email">Tushar4x4@gmail.com</li>
+            <li class="social">
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            For Any Query!
+          </div>
+          <form class="newsletter__input">
+            <input type="text" class="form" placeholder="example@domine.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+        <div class="legel">
+          <p class="text">Create by Tushar</p>
+          <a href="https://github.com/Tushar-D/responsive-website-gym">
+            <img
+              src="img/github.svg"
+              alt="github"
+              class="github"
+              width="35"
+              height="35"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
